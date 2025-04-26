@@ -74,6 +74,31 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: none; /* Remove os marcadores padrão */
+  color: #555;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #f1f1f1; /* Fundo para destacar os participantes */
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.activity-card ul li:hover {
+  background-color: #e0e0e0; /* Destaque ao passar o mouse */
+}
+
+.activity-card .participants-title {
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
